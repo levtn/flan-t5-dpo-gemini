@@ -189,29 +189,6 @@ dpo_trainer = DPOTrainer(
 )
 ```
 
-## 🎯 Educational Value
-
-### Skills Developed
-- **Advanced Fine-tuning**: Hands-on experience with DPO techniques
-- **AI Integration**: Combining multiple AI systems (FLAN-T5 + Gemini)
-- **Experimental Design**: Systematic approach to model comparison
-- **Problem Analysis**: Understanding when and why techniques fail
-
-### Research Insights
-- **Methodology Limitations**: When DPO is and isn't appropriate
-- **Evaluation Challenges**: Difficulties in automated preference assessment
-- **Model Selection**: Importance of appropriate base model capacity
-- **Realistic Expectations**: Understanding the limits of small model fine-tuning
-
-## 🔄 Future Improvements
-
-### What Would Actually Work
-1. **Scale Up**: Use 7B+ parameter models with existing legal knowledge
-2. **Better Data**: Curate high-quality legal preference pairs from experts
-3. **Multi-modal Evaluation**: Combine AI and human judgment
-4. **Incremental Approach**: Start with supervised fine-tuning before DPO
-5. **Specialized Models**: Use models pre-trained on legal text
-
 ### Research Extensions
 - **Human Evaluation Study**: Compare AI vs human preference judgments
 - **Multi-Model Analysis**: Test DPO across different model sizes
@@ -234,14 +211,6 @@ google-generativeai>=0.3.0
 - **Recommended**: 16GB RAM, GPU optional
 - **Training Time**: ~30 minutes on CPU
 
-## 🤝 Contributing
-
-This project serves as a learning example. Potential improvements:
-- Better base model selection
-- Improved preference pair generation
-- Enhanced evaluation methodologies
-- Domain-specific adaptations
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -251,12 +220,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Google**: FLAN-T5 model and Gemini API
 - **Hugging Face**: TRL library for DPO implementation
 - **Research Community**: DPO methodology and best practices
-
-## 📞 Contact
-
-For questions about this educational project:
-- **GitHub Issues**: Use the repository issue tracker
-- **Learning Discussion**: Welcome for educational purposes
 
 ---
 
